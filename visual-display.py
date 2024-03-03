@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 
 # 表示console控制台下 读取
-data = pd.read_csv('.//name_score.csv')
+data = pd.read_csv('analysis_data/name_score.csv')
 
 fig = plt.figure(figsize=(5,6))
 fig.subplots_adjust(hspace=0.3)
