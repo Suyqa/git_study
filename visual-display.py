@@ -11,8 +11,5 @@ ax1 = fig.add_subplot(211)
 sns.lineplot(data=data,x='math',y='physical',hue='gender',errorbar=('ci', 0))
 ax1.legend(loc='upper left',frameon=False)
 ax2 = fig.add_subplot(212)
-# sns.lineplot(data=data,x='math',y='chemistry','ci'=0)
-def hist_plt():
-    sns.histplot(bins=5,data=data,x='math',hue='gender',palette=sns.color_palette('hls',2),kde=True)
-hist_plt()
-plt.show()
+sns.lineplot(data=data,x='math',y='chemistry',errorbar=('ci', 0))
+# 在第一次上编辑
