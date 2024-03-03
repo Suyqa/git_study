@@ -12,3 +12,4 @@ sns.lineplot(data=data,x='math',y='physical',hue='gender',errorbar=('ci', 0))
 ax1.legend(loc='upper left',frameon=False)
 ax2 = fig.add_subplot(212)
 sns.lineplot(data=data,x='math',y='chemistry',errorbar=('ci', 0))
+# 在第一次上编辑
